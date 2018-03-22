@@ -44,6 +44,8 @@
             this.txtRut = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.grpGuardado = new System.Windows.Forms.GroupBox();
+            this.lbFecha = new System.Windows.Forms.Label();
+            this.label12 = new System.Windows.Forms.Label();
             this.lbCiudad = new System.Windows.Forms.Label();
             this.lbDireccion = new System.Windows.Forms.Label();
             this.lbApellido = new System.Windows.Forms.Label();
@@ -54,8 +56,6 @@
             this.label8 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
-            this.label12 = new System.Windows.Forms.Label();
-            this.lbFecha = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
             this.grpGuardado.SuspendLayout();
             this.SuspendLayout();
@@ -87,7 +87,7 @@
             // dtpFecha
             // 
             this.dtpFecha.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.dtpFecha.Location = new System.Drawing.Point(0, 259);
+            this.dtpFecha.Location = new System.Drawing.Point(11, 259);
             this.dtpFecha.Name = "dtpFecha";
             this.dtpFecha.Size = new System.Drawing.Size(195, 20);
             this.dtpFecha.TabIndex = 16;
@@ -95,7 +95,7 @@
             // label11
             // 
             this.label11.AutoSize = true;
-            this.label11.Location = new System.Drawing.Point(0, 243);
+            this.label11.Location = new System.Drawing.Point(8, 243);
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(93, 13);
             this.label11.TabIndex = 13;
@@ -124,7 +124,7 @@
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(-3, 199);
+            this.label5.Location = new System.Drawing.Point(8, 199);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(40, 13);
             this.label5.TabIndex = 9;
@@ -132,14 +132,14 @@
             // 
             // txtDireccion
             // 
-            this.txtDireccion.Location = new System.Drawing.Point(0, 176);
+            this.txtDireccion.Location = new System.Drawing.Point(6, 176);
             this.txtDireccion.Name = "txtDireccion";
             this.txtDireccion.Size = new System.Drawing.Size(200, 20);
             this.txtDireccion.TabIndex = 8;
             // 
             // txtApellido
             // 
-            this.txtApellido.Location = new System.Drawing.Point(0, 137);
+            this.txtApellido.Location = new System.Drawing.Point(6, 137);
             this.txtApellido.Name = "txtApellido";
             this.txtApellido.Size = new System.Drawing.Size(200, 20);
             this.txtApellido.TabIndex = 7;
@@ -153,14 +153,14 @@
             "Osorno",
             "Rio negro",
             "LLanquihue"});
-            this.txtCiudad.Location = new System.Drawing.Point(0, 215);
+            this.txtCiudad.Location = new System.Drawing.Point(6, 215);
             this.txtCiudad.Name = "txtCiudad";
             this.txtCiudad.Size = new System.Drawing.Size(200, 21);
             this.txtCiudad.TabIndex = 6;
             // 
             // txtNombre
             // 
-            this.txtNombre.Location = new System.Drawing.Point(0, 98);
+            this.txtNombre.Location = new System.Drawing.Point(6, 98);
             this.txtNombre.Name = "txtNombre";
             this.txtNombre.Size = new System.Drawing.Size(200, 20);
             this.txtNombre.TabIndex = 5;
@@ -168,7 +168,7 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(0, 160);
+            this.label4.Location = new System.Drawing.Point(8, 160);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(55, 13);
             this.label4.TabIndex = 4;
@@ -178,7 +178,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(0, 121);
+            this.label3.Location = new System.Drawing.Point(8, 121);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(49, 13);
             this.label3.TabIndex = 3;
@@ -187,7 +187,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(-3, 82);
+            this.label2.Location = new System.Drawing.Point(8, 82);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(47, 13);
             this.label2.TabIndex = 2;
@@ -196,7 +196,7 @@
             // 
             // txtRut
             // 
-            this.txtRut.Location = new System.Drawing.Point(0, 59);
+            this.txtRut.Location = new System.Drawing.Point(6, 59);
             this.txtRut.Name = "txtRut";
             this.txtRut.Size = new System.Drawing.Size(200, 20);
             this.txtRut.TabIndex = 1;
@@ -204,7 +204,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(0, 37);
+            this.label1.Location = new System.Drawing.Point(8, 37);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(27, 13);
             this.label1.TabIndex = 0;
@@ -232,6 +232,24 @@
             this.grpGuardado.TabStop = false;
             this.grpGuardado.Text = "Informacion ultimo alumno guardado";
             this.grpGuardado.Visible = false;
+            // 
+            // lbFecha
+            // 
+            this.lbFecha.AutoSize = true;
+            this.lbFecha.Location = new System.Drawing.Point(137, 231);
+            this.lbFecha.Name = "lbFecha";
+            this.lbFecha.Size = new System.Drawing.Size(41, 13);
+            this.lbFecha.TabIndex = 11;
+            this.lbFecha.Text = "label13";
+            // 
+            // label12
+            // 
+            this.label12.AutoSize = true;
+            this.label12.Location = new System.Drawing.Point(8, 231);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(94, 13);
+            this.label12.TabIndex = 10;
+            this.label12.Text = "Fecha nacimiento:";
             // 
             // lbCiudad
             // 
@@ -322,24 +340,6 @@
             this.label6.Size = new System.Drawing.Size(27, 13);
             this.label6.TabIndex = 0;
             this.label6.Text = "Rut:";
-            // 
-            // label12
-            // 
-            this.label12.AutoSize = true;
-            this.label12.Location = new System.Drawing.Point(8, 231);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(94, 13);
-            this.label12.TabIndex = 10;
-            this.label12.Text = "Fecha nacimiento:";
-            // 
-            // lbFecha
-            // 
-            this.lbFecha.AutoSize = true;
-            this.lbFecha.Location = new System.Drawing.Point(137, 231);
-            this.lbFecha.Name = "lbFecha";
-            this.lbFecha.Size = new System.Drawing.Size(41, 13);
-            this.lbFecha.TabIndex = 11;
-            this.lbFecha.Text = "label13";
             // 
             // frmHome
             // 
