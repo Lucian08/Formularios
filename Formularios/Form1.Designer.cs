@@ -200,6 +200,7 @@
             this.txtRut.Name = "txtRut";
             this.txtRut.Size = new System.Drawing.Size(200, 20);
             this.txtRut.TabIndex = 1;
+            this.txtRut.TextChanged += new System.EventHandler(this.txtRut_TextChanged);
             // 
             // label1
             // 

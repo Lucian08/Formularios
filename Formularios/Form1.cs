@@ -75,5 +75,10 @@ namespace Formularios
             txtCiudad.Text = "";
 
         }
+
+        private void txtRut_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
