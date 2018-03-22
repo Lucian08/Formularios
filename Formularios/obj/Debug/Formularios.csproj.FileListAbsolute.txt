@@ -1,0 +1,9 @@
+C:\Users\Luciano-PC\source\repos\Formularios\Formularios\bin\Debug\Formularios.exe
+C:\Users\Luciano-PC\source\repos\Formularios\Formularios\bin\Debug\Formularios.pdb
+C:\Users\Luciano-PC\source\repos\Formularios\Formularios\obj\Debug\Formularios.csprojResolveAssemblyReference.cache
+C:\Users\Luciano-PC\source\repos\Formularios\Formularios\obj\Debug\Formularios.frmHome.resources
+C:\Users\Luciano-PC\source\repos\Formularios\Formularios\obj\Debug\Formularios.Properties.Resources.resources
+C:\Users\Luciano-PC\source\repos\Formularios\Formularios\obj\Debug\Formularios.csproj.GenerateResource.Cache
+C:\Users\Luciano-PC\source\repos\Formularios\Formularios\obj\Debug\Formularios.csproj.CoreCompileInputs.cache
+C:\Users\Luciano-PC\source\repos\Formularios\Formularios\obj\Debug\Formularios.exe
+C:\Users\Luciano-PC\source\repos\Formularios\Formularios\obj\Debug\Formularios.pdb
